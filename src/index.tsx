@@ -1,12 +1,16 @@
 import { Component } from "react";
 import React from "react";
 import ReactDOM from "react-dom";
+import {Button} from "react-bulma-components";
+import "./styles/style.sass";
 
 class Index extends Component{
 
   public render(): JSX.Element{
     return(
-      <div>Hello !!</div>
+      <div>
+        <Button color="primary">Bulma</Button>
+      </div>
     );
   }
 }
